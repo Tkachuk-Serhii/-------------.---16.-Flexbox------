@@ -1,0 +1,336 @@
+.container{
+    max-width: 1310px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+title {
+    display: none;
+}
+.firstScreen{
+    display: flex;
+    
+    margin-top: 130px;
+}
+.block__title{
+    font-weight: 600;
+    font-size: 65px;
+    margin-bottom:50px;
+}
+.firstScreen__block{
+    width: 45%;
+}
+
+.block__text{
+    padding-right: 68px;
+    width: 540px;
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 50px;
+}
+.block__link {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.red a{
+    background-color: #FF6336;
+    border: 1px solid #FF6336;
+    color: #fff;
+    padding: 10px 41px 10px 42px;
+}
+
+.red a:hover{
+    background-color: #fff;
+    border: 1px solid #FF6336;
+    color:#FF6336;
+}
+.grey a{    
+    color: #000;
+    padding: 10px 29px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+}
+.grey a:hover{
+    background-color: #000;
+    color:#fff; 
+}
+.companies{
+    background-color: #FF9C7D;
+    margin-top: 172px;
+}
+.companies__title{
+    text-align: center;
+    max-width: 720px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 0 210px 85px 313px;
+    padding-top: 108px;
+}
+.companies__logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 104px;
+}
+.company-logo{
+width: 10%;
+}
+.app__ad{
+    display: flex;
+    align-items: center;
+    margin: 90px 0 250px;
+    justify-content: space-between;
+}
+.app-block{
+    width: 40%;
+}
+.app-title{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    max-width: 493px;
+    margin-bottom: 30px;
+}
+.app-text{
+    font-size: 20px;
+    line-height: 150%;
+    max-width: 520px;
+    margin-bottom: 30px;
+}
+.decoration{
+    text-decoration: underline;
+    display: inline;
+}
+.app-link{
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+}
+.app-link:hover{
+    text-decoration: underline;
+}
+.app__ad:nth-of-type(even){
+    flex-direction: row-reverse;  
+}
+.app__ad:nth-of-type(4){
+    margin-bottom: 130px;
+}
+.explainer {
+    background-color: #FFF8E4;
+    padding: 120px 0 147px;
+}
+.explainer__title{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+}
+.explainer__block{
+    display: flex;  
+    justify-content:space-between ;
+    flex-wrap: wrap;
+}
+.explainer__block-item{
+    align-items: center;
+    width: 30%;
+    margin-top: 75px;
+    padding: 25px;
+}
+.explainer__img-holder{
+    max-width: 160px;
+    margin: 0 auto 25px;
+
+}
+.block__item-title{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.block__item-text{
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+.boost__title{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    padding-top: 154px;
+    margin-bottom: 75px;
+}
+.boost__offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: flex-start;
+}
+.boost__img-holder{
+    width: 40%;
+    height: 201px;
+    margin-bottom: 49px;
+}
+.boost__item-title{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 34px;
+}
+.boost__item-text{
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 409px;
+    margin-bottom: 25px;
+}
+.boost__item-link{
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: underline;
+    color: #000000;
+}
+.boost__item-link:hover{
+    font-weight: 600;
+}
+.quote{
+    background-color: #C9E8F2;
+    margin-top: 187px;
+}
+.block-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.quote__text{
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 23px;
+}
+.quote__block{
+    width: 70%;
+    margin-top: 63px;
+}
+.quote__img{
+    width: 25%;
+}
+.quote__name{
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 7px;
+}
+.quote-logo{
+    width: 115px;
+}
+.quote__img{
+    padding: 53px 0 105px;
+}
+.banner{
+    background-color: #DABC98;
+    padding: 80px 0 87px;
+}
+.banner-content{
+    display: flex;
+    justify-content: space-between;
+}
+.banner__block{
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    border-right: 1px solid black;
+    margin-left: -40px;
+}
+.banner__title{
+    max-width: 461px;
+    font-size: 35px;
+    line-height: 50px;
+    margin-right: 50px;
+}
+.banner__rated{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 35%;
+}
+.rated__item-text{
+    font-size: 15px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+}
+.intergrations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 165px 0;
+}
+.intergrations__title{
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+    width: 65%;
+}
+.intergrations__text{
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 25px;
+}
+.intergrations__link a{
+    background-color: #FF6336;
+    padding: 20px 20px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 32px;
+}
+.intergrations__link a:hover{
+    border: 1px solid #FF6336;
+    color: #FF6336;
+    background-color: transparent;
+}
+.offer{
+    background-color: #FF9C7D;
+    padding: 119px 0 161px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.offer__block{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.offer__title{
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 29px;
+}
+.offer__text{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 54px;
+}
+.offer__link a{
+    background-color: #000;
+    border: 1px solid #000;
+    color: #fff;
+    padding: 20px 40px ;
+    font-weight: 600;
+}
+.offer__link a:hover{
+    background-color:transparent;
+    border: 1px solid #000;
+    color: #000;
+}
+
+
+
+
+
+
